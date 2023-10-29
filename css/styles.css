@@ -1224,11 +1224,12 @@ a:hover.back-to-top {
 .content__container {
   font-weight: 600;
   overflow: hidden;
-  height: 40px;
+  height: 100px;
   padding: 0;
 }
 
 .content__container__text {
+line-height: 100px;
   display: inline;
   float: left;
   margin: 0;
@@ -1236,7 +1237,6 @@ a:hover.back-to-top {
 
 .content__container__list {
   margin-top: 0;
-  padding-left: 60px;
   text-align: left;
   list-style: none;
   -webkit-animation-name: change;
@@ -1248,7 +1248,7 @@ a:hover.back-to-top {
 }
 
 .content__container__list__item {
-  line-height: 40px;
+  line-height: 100px;
   margin: 0;
 }
 
